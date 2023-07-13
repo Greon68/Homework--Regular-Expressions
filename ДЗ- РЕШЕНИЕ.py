@@ -117,7 +117,7 @@ for elem in out_list:
         result = re.sub(pattern, sub_, el)
         # Заполняем текущий список данными
         elem_list.append(result)
-    # Добавляе изменённый список текущей итерации в финишный список списков
+    # Добавляем изменённый список текущей итерации в финишный список списков
     contacts_list_out.append(elem_list)
 # Для контроля - проверяем результат
 print(contacts_list_out)
